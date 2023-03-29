@@ -1356,13 +1356,13 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 5.0
+          Value: 215.0
         - Name: TopMargin
           Id: g=f73266232174a985c05f374d4ada377e
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 10.0
+          Value: 0.0
         - Name: Width
           Id: g=16fec1fd72425646cf7259be3f68ab5c
           Type: BaseVariableType
@@ -1731,6 +1731,33 @@ Children:
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "{NodeId:ns=42;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
+      - Name: SpinBox1
+        Id: g=79f6988d2d628124ccba137e4ded85d6
+        Type: SpinBox
+        Children:
+        - Name: Value
+          Id: g=46d0ceeed1e8a644d4aa96ebbd13ec05
+          Type: BaseDataVariableType
+          DataType: Double
+          Value: 0.0
+        - Name: Width
+          Id: g=91c04968d10e7e8cb751c2a48c4d85a6
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 80.0
+        - Name: LeftMargin
+          Id: g=2bf123e2aef26cfd9e79bc321697e370
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 425.0
+        - Name: TopMargin
+          Id: g=7ea9130a00964a5e659c20766cae566b
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 19.0
     - Name: MiddlePanel
       Id: g=7e8420114049aa1928362534088dda33
       Type: PanelLoader
