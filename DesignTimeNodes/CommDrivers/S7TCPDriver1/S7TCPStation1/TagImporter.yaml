@@ -1,0 +1,23 @@
+Name: TagImporter
+Id: g=f35cde865904bf4a04a78ecd329ae493
+Type: S7TagImporter
+OwnerId: ns=2;g=ff6a0a15d9d13d99b294a85f5e7d7f15
+Children:
+- Name: IgnoredPLCItems
+  Id: g=b5dff6486a58cb3f6456106319a107fd
+  Type: BaseDataVariableType
+  DataType: BaseDataType
+  ValueRank: OneDimension
+  ArrayDimensions: [0]
+- Name: IgnoredHMIItems
+  Id: g=42103eecf038a05c9db8420e9492ac94
+  Type: BaseDataVariableType
+  DataType: NodeId
+  ValueRank: OneDimension
+  ArrayDimensions: [0]
+  Value: []
+- Name: FilePath
+  Id: g=39a29ddfe750f1e5144b7e498a1364c6
+  Type: BaseDataVariableType
+  DataType: AbsoluteResourceUri
+  Value: "file:///C:/Users/robzam/Nextcloud/Documents/Documentazione/Esempi PLC/Siemens/EsempioSiemens1/MILLENNIUM_PR160801001_00.ap14"
